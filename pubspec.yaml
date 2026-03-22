@@ -59,6 +59,4 @@ flutter:
   assets:
     - assets/images/avatar.png
     - assets/images/visa_black.png
-    - assets/images/visa.png
-    - assets/images/mastercard.png
     - assets/images/Mastercard_logo.png
