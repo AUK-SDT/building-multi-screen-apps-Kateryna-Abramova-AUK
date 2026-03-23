@@ -121,7 +121,38 @@ class MonobankHomePage extends StatelessWidget {
               ),
             ),
           ),
-          // Add more items here...
+          TransactionItem(
+            title: 'Термінал mono',
+            subtitle: 'Сьогодні, 9:15',
+            amount: '1 200.00 ₴',
+            icon: Icons.person,
+            iconColor: Colors.green,
+            onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const TransactionDetailPage(
+                  title: 'Термінал mono',
+                  amount: '1 200.00 ₴',
+                ),
+              ),
+            ),
+          ),
+          TransactionItem(
+            title: 'Аптека АНЦ',
+            subtitle: '3 Січня, 18:30',
+            amount: '-320.50 ₴',
+            icon: Icons.local_pharmacy,
+            iconColor: Colors.teal,
+            onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const TransactionDetailPage(
+                  title: 'Аптека АНЦ',
+                  amount: '-320.50 ₴',
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );

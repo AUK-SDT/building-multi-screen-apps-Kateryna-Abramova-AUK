@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//Page for transaction detail
 class TransactionDetailPage extends StatelessWidget {
   final String title;
   final String amount;
